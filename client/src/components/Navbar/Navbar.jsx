@@ -79,7 +79,6 @@ const Navbar = () => {
             {tab.active ? <div className="navbar-icon-underline"></div> : null}
           </div>
         ))}
-        {/* <div className="navbar-icon-underline"></div> */}
       </div>
       <div className="navbar-right">
         <div className="navbar-right-icon">

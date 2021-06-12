@@ -1,45 +1,7 @@
-.sidebar {
-  width: 20%;
-  height: 50%;
-  background: white;
-  border-radius: 8px;
-  margin-right: 30px;
-  margin-top: 30px;
-
-}
-
-.sidebar header {
-  padding: 25px 15px;
-  display: flex;
-  align-items: center;
-}
-
-.sidebar header span {
-  color: white;
-  font-weight: bold;
-  margin-left: 10px;
-  font-size: 1.3rem;
-}
-
-.sidebar ul {
-  margin-top: 5px;
-}
-
 .sidebar li {
-  display: flex;
-  align-items: center;
-  padding: 15px 25px;
-  /* border-bottom: 1px solid lightgray; */
-  transition: all 0.4s;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-.sidebar li span {
-    margin-left: 15px
+    transition: .4s all;
 }
 
 .sidebar li:hover {
-  background: #3b8ad9;
-  color: white;
-  cursor: pointer;
+    background: #fafafa
 }
